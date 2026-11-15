@@ -1,0 +1,215 @@
+{
+    "__contributors": [],
+    "settings": {
+        "options": {
+            "adBlock": "광고 차단",
+            "sponsorblock": {
+                "title": "SponsorBlock 설정",
+                "options": {
+                    "enableSB": "SponsorBlock 사용",
+                    "manualSkip": "SponsorBlock 구간 수동 건너뛰기",
+                    "segments": "구간",
+                    "categories": {
+                        "sponsor": "스폰서 구간 건너뛰기",
+                        "intro": "인트로 구간 건너뛰기",
+                        "outro": "아웃트로 구간 건너뛰기",
+                        "interaction": "구독·좋아요 요청 구간 건너뛰기",
+                        "selfpromo": "자체 홍보 구간 건너뛰기",
+                        "preview": "미리보기/요약 구간 건너뛰기",
+                        "filler": "잡담/농담 구간 건너뛰기",
+                        "music_offtopic": "음악 외 구간 건너뛰기",
+                        "highlights": "하이라이트 사용"
+                    },
+                    "showSBToasts": "SponsorBlock 알림 표시"
+                }
+            },
+            "dearrow": {
+                "title": "DeArrow 설정",
+                "options": {
+                    "enableDA": "DeArrow 사용",
+                    "enableDAThumbnails": "DeArrow 썸네일 사용"
+                }
+            },
+            "misc": {
+                "title": "기타 설정",
+                "options": {
+                    "endScreenCards": "종료 화면 카드 숨기기",
+                    "youThereRenderer": "'계속 시청하시겠습니까?' 알림 사용",
+                    "paidPromoOverlay": "'유료 프로모션 포함' 오버레이 사용",
+                    "whosWatching": {
+                        "title": "누가 시청 중인가요 메뉴",
+                        "options": {
+                            "enableWW": "'누가 시청 중인가요' 메뉴 사용",
+                            "permaEnableWW": "'누가 시청 중인가요' 메뉴 항상 사용",
+                            "enableWWOnExit": "앱 종료 시 '누가 시청 중인가요' 메뉴 사용"
+                        }
+                    },
+                    "fixUI": "UI 수정",
+                    "hqThumbnails": "고화질 썸네일 사용",
+                    "longPress": "길게 누르기 동작 사용",
+                    "shorts": "Shorts 사용",
+                    "videoPreviews": "동영상 미리보기 사용",
+                    "ttWelcomeMsg": "TT 환영 메시지 표시",
+                    "guestSignInReminder": "게스트 로그인 알림 표시",
+                    "reloadHomeOnStartup": "시작 시 홈 새로고침"
+                }
+            },
+            "subtitles": {
+                "title": "자막 설정",
+                "options": {
+                    "showLocalSubtitle": "현지 자막 표시",
+                    "showHiddenSubtitles": "숨겨진 자막 표시",
+                    "persistSubtitleLanguage": "자막 언어 기억"
+                }
+            },
+            "videoPlayer": {
+                "title": "동영상 플레이어 설정",
+                "subtitle": "동영상 플레이어 기능 맞춤설정",
+                "options": {
+                    "preferredVideoQuality": {
+                        "title": "선호 동영상 화질",
+                        "subtitle": "재생 시작 시 적용할 선호 화질을 선택하세요. 지원되지 않으면 가장 가까운 화질이 적용됩니다."
+                    },
+                    "preferredVideoCodec": {
+                        "title": "선호 동영상 코덱",
+                        "subtitle": "재생에 사용할 선호 동영상 코덱을 선택하세요"
+                    },
+                    "afr": "자동 프레임 레이트",
+                    "afrPauseDuration": {
+                        "title": "자동 프레임 레이트 일시중지 시간",
+                        "subtitle": "프레임 레이트를 조정할 때 동영상 재생을 일시중지할 시간(초)을 설정하세요"
+                    },
+                    "codecAny": "상관없음",
+                    "qualityAuto": "자동",
+                    "hideRelatedVideosPlayer": "관련 동영상 숨기기"
+                }
+            },
+            "time": {
+                "second": "{{count}}초",
+                "seconds": "{{count}}초",
+                "minute": "{{count}}분",
+                "minutes": "{{count}}분"
+            },
+            "uiSettings": {
+                "title": "사용자 인터페이스 설정",
+                "subtitle": "원하는 대로 UI를 맞춤설정하세요",
+                "options": {
+                    "hideWatchedVideos": {
+                        "title": "시청한 동영상 숨기기",
+                        "options": {
+                            "enableHideWatchedVideos": "시청한 동영상 숨기기 사용",
+                            "watchedVideosThreshold": {
+                                "title": "시청한 동영상 기준",
+                                "subtitle": "시청한 동영상을 숨길 시청 비율 기준을 설정하세요"
+                            },
+                            "setPagesToHideWatchedVideos": "시청한 동영상을 숨길 페이지 설정"
+                        }
+                    },
+                    "screenDimming": {
+                        "title": "화면 어둡게 하기",
+                        "options": {
+                            "enableScreenDimming": "화면 어둡게 하기 사용",
+                            "dimmingTimeout": {
+                                "title": "어두워지기까지의 시간",
+                                "subtitle": "조작이 없을 때 화면이 어두워지기까지의 시간(초)을 설정하세요"
+                            },
+                            "dimmingOpacity": {
+                                "title": "어두움 정도",
+                                "subtitle": "화면을 어둡게 할 때의 불투명도를 설정하세요"
+                            }
+                        }
+                    },
+                    "disableSidebarContents": {
+                        "title": "사이드바 항목 숨기기",
+                        "subtitle": "숨길 사이드바 항목을 선택하세요"
+                    },
+                    "sortSidebarContents": {
+                        "title": "사이드바 항목 정렬",
+                        "subtitle": "사이드바 항목을 원하는 순서로 재정렬하세요",
+                        "moveUp": {
+                            "title": "위로 이동",
+                            "subtitle": "사이드바에서 이 항목을 위로 이동합니다"
+                        },
+                        "moveDown": {
+                            "title": "아래로 이동",
+                            "subtitle": "사이드바에서 이 항목을 아래로 이동합니다"
+                        },
+                        "addToSidebar": "채널을 사이드바에 추가",
+                        "removeFromSidebar": "사이드바에서 채널 제거"
+                    },
+                    "launchToOnStartup": {
+                        "title": "시작 시 이동할 페이지",
+                        "subtitle": "YouTube를 시작할 때 처음 열 기본 페이지를 선택하세요"
+                    },
+                    "categories": {
+                        "search": "검색",
+                        "home": "홈",
+                        "sports": "스포츠",
+                        "news": "뉴스",
+                        "music": "음악",
+                        "podcasts": "팟캐스트",
+                        "moviesAndTv": "영화 및 TV",
+                        "live": "실시간",
+                        "gaming": "게임",
+                        "subscriptions": "구독",
+                        "library": "보관함",
+                        "more": "더보기",
+                        "searchResults": "검색 결과"
+                    },
+                    "sortSubscriptionsByAlphabet": "구독 목록을 가나다순으로 정렬",
+                    "disableChannelsOnSidebar": "사이드바에서 채널 숨기기",
+                    "clock": {
+                        "title": "시계",
+                        "subtitle": "화면에 시계를 표시합니다",
+                        "options": {
+                            "enableClock": "시계 사용",
+                            "isClock12HourFormat": "시계에 12시간제 사용",
+                            "clockShowSeconds": "시계에 초 표시",
+                            "clockHideWhenVideoPlaying": "동영상 재생 중 시계 숨기기"
+                        }
+                    },
+                    "disableEnlargingThumbnails": "썸네일 확대 사용 안 함",
+                    "enableShrinkingThumbnails": "썸네일 축소 사용"
+                }
+            }
+        },
+        "ttSettings": {
+            "title": "YouTube 설정",
+            "summary": "YouTube 설정 열기"
+        }
+    },
+    "welcomeMsg": {
+        "title": "YouTube에 오신 것을 환영합니다",
+        "subtitle": "설정으로 이동하여 YouTube 설정을 클릭하세요."
+    },
+    "sponsorblock": {
+        "segments": {
+            "sponsor": "스폰서 구간",
+            "intro": "인트로",
+            "outro": "아웃트로",
+            "interaction": "구독·좋아요 요청",
+            "selfpromo": "자체 홍보",
+            "preview": "요약 또는 미리보기",
+            "filler": "잡담",
+            "music_offtopic": "음악 외 구간",
+            "poi_highlight": "하이라이트"
+        },
+        "toasts": {
+            "skipping": "{{segment}} 건너뛰는 중",
+            "notSkipping": "{{segment}}을(를) 건너뛰지 않음 ({{count}}회 건너뜀)",
+            "skip": "{{segment}} 건너뛰기",
+            "skipToHighlight": "하이라이트로 건너뛰기"
+        }
+    },
+    "player": {
+        "screenOff": "화면 끄기"
+    },
+    "toasts": {
+        "videoAddedToQueue": "동영상이 대기열에 추가되었습니다.",
+        "videoQueueCleared": "동영상 대기열이 비워졌습니다.",
+        "sidebarContentsUpdated": {
+            "title": "사이드바 항목 업데이트됨",
+            "subtitle": "사이드바 항목이 업데이트되었습니다."
+        }
+    }
+}

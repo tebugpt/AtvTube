@@ -1,0 +1,217 @@
+{
+    "__contributors": [
+        "LvKafija"
+    ],
+    "settings": {
+        "options": {
+            "adBlock": "Reklāmu bloķētājs",
+            "sponsorblock": {
+                "title": "SponsorBlock iestatījumi",
+                "options": {
+                    "enableSB": "Iespējot SponsorBlock",
+                    "manualSkip": "Manuāla SponsorBlock segmentu izlaišana",
+                    "segments": "Segmenti",
+                    "categories": {
+                        "sponsor": "Izlaist sponsoru segmentus",
+                        "intro": "Izlaist ievada segmentus",
+                        "outro": "Izlaist beigu segmentus",
+                        "interaction": "Izlaist aicinājumus uz mijiedarbību",
+                        "selfpromo": "Izlaist pašreklāmas segmentus",
+                        "preview": "Izlaist priekšskatījuma/kopsavilkuma segmentus",
+                        "filler": "Izlaist liekvārdību/jokus",
+                        "music_offtopic": "Izlaist nesaistītas mūzikas segmentus",
+                        "highlights": "Iespējot izcēlumus"
+                    },
+                    "showSBToasts": "Rādīt SponsorBlock paziņojumus"
+                }
+            },
+            "dearrow": {
+                "title": "DeArrow iestatījumi",
+                "options": {
+                    "enableDA": "Iespējot DeArrow",
+                    "enableDAThumbnails": "Iespējot DeArrow sīktēlus"
+                }
+            },
+            "misc": {
+                "title": "Dažādi iestatījumi",
+                "options": {
+                    "endScreenCards": "Slēpt beigu ekrāna kartītes",
+                    "youThereRenderer": "Iespējot 'Vai jūs joprojām skatāties?' logu",
+                    "paidPromoOverlay": "Iespējot 'Ietver apmaksātu reklāmu' pārklājumu",
+                    "whosWatching": {
+                        "title": "Izvēlne 'Kas skatās?'",
+                        "options": {
+                            "enableWW": "Iespējot 'Kas skatās?' izvēlni",
+                            "permaEnableWW": "Pastāvīgi iespējot 'Kas skatās?' izvēlni",
+                            "enableWWOnExit": "Rādīt 'Kas skatās?' izvēlni, aizverot lietotni"
+                        }
+                    },
+                    "fixUI": "Labot saskarni (UI)",
+                    "hqThumbnails": "Iespējot augstas kvalitātes sīktēlus",
+                    "longPress": "Iespējot garā nospiediena darbības",
+                    "shorts": "Iespējot Shorts",
+                    "videoPreviews": "Iespējot video priekšskatījumus",
+                    "ttWelcomeMsg": "Rādīt TT sveiciena ziņojumu",
+                    "guestSignInReminder": "Rādīt viesa pieteikšanās atgādinājumu",
+                    "reloadHomeOnStartup": "Pārlādēt sākumlapu palaišanas brīdī"
+                }
+            },
+            "subtitles": {
+                "title": "Subtitru iestatījumi",
+                "options": {
+                    "showLocalSubtitle": "Rādīt vietējos subtitrus",
+                    "showHiddenSubtitles": "Rādīt slēptos subtitrus",
+                    "persistSubtitleLanguage": "Atcerēties subtitru valodu"
+                }
+            },
+            "videoPlayer": {
+                "title": "Video atskaņotāja iestatījumi",
+                "subtitle": "Pielāgot video atskaņotāja funkcijas",
+                "options": {
+                    "preferredVideoQuality": {
+                        "title": "Vēlamā video kvalitāte",
+                        "subtitle": "Izvēlieties vēlamo vai nākamo labāko video kvalitāti atskaņošanas sākumā"
+                    },
+                    "preferredVideoCodec": {
+                        "title": "Vēlamais video kodeks",
+                        "subtitle": "Izvēlieties vēlamo video kodeku atskaņošanai"
+                    },
+                    "afr": "Automātisks kadru nomaiņas ātrums (AFR)",
+                    "afrPauseDuration": {
+                        "title": "AFR pauzes ilgums",
+                        "subtitle": "Iestatiet ilgumu (sekundēs), uz kādu apturēt atskaņošanu, pielāgojot kadru nomaiņas ātrumu"
+                    },
+                    "codecAny": "Any",
+                    "qualityAuto": "Auto",
+                    "hideRelatedVideosPlayer": "Hide Related Videos"
+                }
+            },
+            "uiSettings": {
+                "title": "Lietotāja saskarnes iestatījumi",
+                "subtitle": "Pielāgojiet saskarni savām vēlmēm",
+                "options": {
+                    "hideWatchedVideos": {
+                        "title": "Slēpt noskatītos video",
+                        "options": {
+                            "enableHideWatchedVideos": "Iespējot noskatīto video slēpšanu",
+                            "watchedVideosThreshold": {
+                                "title": "Noskatīto video slieksnis",
+                                "subtitle": "Iestatiet procentuālo slieksni noskatīto video slēpšanai"
+                            },
+                            "setPagesToHideWatchedVideos": "Izvēlēties lapas, kurās slēpt noskatītos video"
+                        }
+                    },
+                    "screenDimming": {
+                        "title": "Ekrāna aptumšošana",
+                        "options": {
+                            "enableScreenDimming": "Iespējot ekrāna aptumšošanu",
+                            "dimmingTimeout": {
+                                "title": "Aptumšošanas noildze",
+                                "subtitle": "Iestatiet bezdarbības laiku (sekundēs), pirms ekrāns aptumšojas"
+                            },
+                            "dimmingOpacity": {
+                                "title": "Aptumšošanas intensitāte",
+                                "subtitle": "Iestatiet ekrāna aptumšošanas caurspīdīguma līmeni"
+                            }
+                        }
+                    },
+                    "disableSidebarContents": {
+                        "title": "Atspējot sānjoslas saturu",
+                        "subtitle": "Izvēlieties sānjoslas elementus, kurus atspējot"
+                    },
+                    "launchToOnStartup": {
+                        "title": "Sākumlapa palaišanas brīdī",
+                        "subtitle": "Izvēlieties noklusējuma lapu, kuru YouTube atvērs palaišanas brīdī"
+                    },
+                    "sortSubscriptionsByAlphabet": "Sort Subscriptions Alphabetically",
+                    "categories": {
+                        "search": "Search",
+                        "home": "Home",
+                        "sports": "Sports",
+                        "news": "News",
+                        "music": "Music",
+                        "podcasts": "Podcasts",
+                        "moviesAndTv": "Movies & TV",
+                        "live": "Live",
+                        "gaming": "Gaming",
+                        "subscriptions": "Subscriptions",
+                        "library": "Library",
+                        "more": "More",
+                        "searchResults": "Search Results"
+                    },
+                    "disableChannelsOnSidebar": "Disable Channels on Sidebar",
+                    "clock": {
+                        "title": "Clock",
+                        "subtitle": "Display a clock on the screen",
+                        "options": {
+                            "enableClock": "Enable Clock",
+                            "isClock12HourFormat": "Use 12-Hour Format for Clock",
+                            "clockShowSeconds": "Show Seconds on Clock",
+                            "clockHideWhenVideoPlaying": "Hide Clock While Video is Playing"
+                        }
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails",
+                    "sortSidebarContents": {
+                        "title": "Sort Sidebar Contents",
+                        "subtitle": "Reorder sidebar contents to your preference",
+                        "moveUp": {
+                            "title": "Move Up",
+                            "subtitle": "Move this item up in the sidebar"
+                        },
+                        "moveDown": {
+                            "title": "Move Down",
+                            "subtitle": "Move this item down in the sidebar"
+                        },
+                        "addToSidebar": "Add Channel to Sidebar",
+                        "removeFromSidebar": "Remove Channel from Sidebar"
+                    }
+                }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
+            }
+        },
+        "ttSettings": {
+            "title": "YouTube iestatījumi",
+            "summary": "Atvērt YouTube iestatījumus"
+        }
+    },
+    "welcomeMsg": {
+        "title": "Laipni lūdzam YouTube",
+        "subtitle": "Dodieties uz iestatījumiem un noklikšķiniet uz 'YouTube iestatījumi', lai veiktu izmaiņas."
+    },
+    "sponsorblock": {
+        "segments": {
+            "sponsor": "sponsorēts segments",
+            "intro": "ievads",
+            "outro": "beigas",
+            "interaction": "atgādinājums par mijiedarbību",
+            "selfpromo": "pašreklāma",
+            "preview": "kopsavilkums vai priekšskatījums",
+            "filler": "novirzīšanās no tēmas",
+            "music_offtopic": "nemuzikāla daļa",
+            "poi_highlight": "izcēlums"
+        },
+        "toasts": {
+            "skipping": "Izlaiž: {{segment}}",
+            "notSkipping": "Neizlaiž {{segment}} (tika izlaists {{count}} reizes)",
+            "skip": "Izlaist {{segment}}",
+            "skipToHighlight": "Pāriet uz izcēlumu"
+        }
+    },
+    "player": {
+        "screenOff": "Turn off screen"
+    },
+    "toasts": {
+        "videoAddedToQueue": "Video added to queue.",
+        "videoQueueCleared": "Video queue cleared.",
+        "sidebarContentsUpdated": {
+            "title": "Sidebar Contents Updated",
+            "subtitle": "The sidebar contents have been updated."
+        }
+    }
+}

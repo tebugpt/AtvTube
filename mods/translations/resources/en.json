@@ -1,0 +1,217 @@
+{
+    "__contributors": [
+        "reisxd"
+    ],
+    "settings": {
+        "options": {
+            "adBlock": "Ad Block",
+            "sponsorblock": {
+                "title": "SponsorBlock Settings",
+                "options": {
+                    "enableSB": "Enable SponsorBlock",
+                    "manualSkip": "Manual SponsorBlock Segment Skip",
+                    "segments": "Segments",
+                    "categories": {
+                        "sponsor": "Skip Sponsor Segments",
+                        "intro": "Skip Intro Segments",
+                        "outro": "Skip Outro Segments",
+                        "interaction": "Skip Interaction Reminder Segments",
+                        "selfpromo": "Skip Self-Promotion Segments",
+                        "preview": "Skip Preview/Recap Segments",
+                        "filler": "Skip Tangents/Jokes Segments",
+                        "music_offtopic": "Skip Off-Topic Music Segments",
+                        "highlights": "Enable Highlights"
+                    },
+                    "showSBToasts": "Show SponsorBlock Toasts"
+                }
+            },
+            "dearrow": {
+                "title": "DeArrow Settings",
+                "options": {
+                    "enableDA": "Enable DeArrow",
+                    "enableDAThumbnails": "Enable DeArrow Thumbnails"
+                }
+            },
+            "misc": {
+                "title": "Miscellaneous Settings",
+                "options": {
+                    "endScreenCards": "Hide End Screen Cards",
+                    "youThereRenderer": "Enable 'Are you still watching?' Renderer",
+                    "paidPromoOverlay": "Enable 'Includes paid promotion' Overlay",
+                    "whosWatching": {
+                        "title": "Who's Watching Menu",
+                        "options": {
+                            "enableWW": "Enable Who's Watching Menu",
+                            "permaEnableWW": "Permanently Enable Who's Watching Menu",
+                            "enableWWOnExit": "Enable Who's Watching Menu on App Exit"
+                        }
+                    },
+                    "fixUI": "Fix UI",
+                    "hqThumbnails": "Enable High Quality Thumbnails",
+                    "longPress": "Enable Long Press Actions",
+                    "shorts": "Enable Shorts",
+                    "videoPreviews": "Enable Video Previews",
+                    "ttWelcomeMsg": "Show TT Welcome Message",
+                    "guestSignInReminder": "Show Guest Sign In Reminder",
+                    "reloadHomeOnStartup": "Reload Home on Startup"
+                }
+            },
+            "subtitles": {
+                "title": "Subtitle Settings",
+                "options": {
+                    "showLocalSubtitle": "Show Local Subtitle",
+                    "showHiddenSubtitles": "Show Hidden Subtitles",
+                    "persistSubtitleLanguage": "Remember Subtitle Language"
+                }
+            },
+            "videoPlayer": {
+                "title": "Video Player Settings",
+                "subtitle": "Customize video player features",
+                "options": {
+                    "preferredVideoQuality": {
+                        "title": "Preferred Video Quality",
+                        "subtitle": "Choose the preferred or next best video quality applied when playback starts"
+                    },
+                    "preferredVideoCodec": {
+                        "title": "Preferred Video Codec",
+                        "subtitle": "Choose the preferred video codec for playback"
+                    },
+                    "afr": "Auto Frame Rate",
+                    "afrPauseDuration": {
+                        "title": "Auto Frame Rate Pause Duration",
+                        "subtitle": "Set the duration (in seconds) to pause video playback when adjusting frame rate"
+                    },
+                    "codecAny": "Any",
+                    "qualityAuto": "Auto",
+                    "hideRelatedVideosPlayer": "Hide Related Videos"
+                }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
+            },
+            "uiSettings": {
+                "title": "User Interface Settings",
+                "subtitle": "Customize the UI to your liking",
+                "options": {
+                    "hideWatchedVideos": {
+                        "title": "Hide Watched Videos",
+                        "options": {
+                            "enableHideWatchedVideos": "Enable Hide Watched Videos",
+                            "watchedVideosThreshold": {
+                                "title": "Watched Videos Threshold",
+                                "subtitle": "Set the percentage threshold for hiding watched videos"
+                            },
+                            "setPagesToHideWatchedVideos": "Set Pages to Hide Watched Videos"
+                        }
+                    },
+                    "screenDimming": {
+                        "title": "Screen Dimming",
+                        "options": {
+                            "enableScreenDimming": "Enable Screen Dimming",
+                            "dimmingTimeout": {
+                                "title": "Dimming Timeout",
+                                "subtitle": "Set the inactivity timeout (in seconds) before the screen dims"
+                            },
+                            "dimmingOpacity": {
+                                "title": "Dimming Opacity",
+                                "subtitle": "Set the opacity level for screen dimming"
+                            }
+                        }
+                    },
+                    "disableSidebarContents": {
+                        "title": "Disable Sidebar Contents",
+                        "subtitle": "Select sidebar contents to disable"
+                    },
+                    "sortSidebarContents": {
+                        "title": "Sort Sidebar Contents",
+                        "subtitle": "Reorder sidebar contents to your preference",
+                        "moveUp": {
+                            "title": "Move Up",
+                            "subtitle": "Move this item up in the sidebar"
+                        },
+                        "moveDown": {
+                            "title": "Move Down",
+                            "subtitle": "Move this item down in the sidebar"
+                        },
+                        "addToSidebar": "Add Channel to Sidebar",
+                        "removeFromSidebar": "Remove Channel from Sidebar"
+                    },
+                    "launchToOnStartup": {
+                        "title": "Launch To on Startup",
+                        "subtitle": "Choose the default page YouTube opens to on startup"
+                    },
+                    "categories": {
+                        "search": "Search",
+                        "home": "Home",
+                        "sports": "Sports",
+                        "news": "News",
+                        "music": "Music",
+                        "podcasts": "Podcasts",
+                        "moviesAndTv": "Movies & TV",
+                        "live": "Live",
+                        "gaming": "Gaming",
+                        "subscriptions": "Subscriptions",
+                        "library": "Library",
+                        "more": "More",
+                        "searchResults": "Search Results"
+                    },
+                    "sortSubscriptionsByAlphabet": "Sort Subscriptions Alphabetically",
+                    "disableChannelsOnSidebar": "Disable Channels on Sidebar",
+                    "clock": {
+                        "title": "Clock",
+                        "subtitle": "Display a clock on the screen",
+                        "options": {
+                            "enableClock": "Enable Clock",
+                            "isClock12HourFormat": "Use 12-Hour Format for Clock",
+                            "clockShowSeconds": "Show Seconds on Clock",
+                            "clockHideWhenVideoPlaying": "Hide Clock While Video is Playing"
+                        }
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails"
+                }
+            }
+        },
+        "ttSettings": {
+            "title": "YouTube Settings",
+            "summary": "Open YouTube Settings"
+        }
+    },
+    "welcomeMsg": {
+        "title": "Welcome to YouTube",
+        "subtitle": "Go to settings and click on YouTube Settings for settings."
+    },
+    "sponsorblock": {
+        "segments": {
+            "sponsor": "sponsored segment",
+            "intro": "intro",
+            "outro": "outro",
+            "interaction": "interaction reminder",
+            "selfpromo": "self-promotion",
+            "preview": "recap or preview",
+            "filler": "tangents",
+            "music_offtopic": "non-music part",
+            "poi_highlight": "highlight"
+        },
+        "toasts": {
+            "skipping": "Skipping {{segment}}",
+            "notSkipping": "Not skipping {{segment}} (was skipped {{count}} times)",
+            "skip": "Skip {{segment}}",
+            "skipToHighlight": "Skip to highlight"
+        }
+    },
+    "player": {
+        "screenOff": "Turn off screen"
+    },
+    "toasts": {
+        "videoAddedToQueue": "Video added to queue.",
+        "videoQueueCleared": "Video queue cleared.",
+        "sidebarContentsUpdated": {
+            "title": "Sidebar Contents Updated",
+            "subtitle": "The sidebar contents have been updated."
+        }
+    }
+}

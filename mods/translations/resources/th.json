@@ -1,0 +1,215 @@
+{
+    "__contributors": [],
+    "settings": {
+        "options": {
+            "adBlock": "บล็อกโฆษณา",
+            "sponsorblock": {
+                "title": "การตั้งค่า SponsorBlock",
+                "options": {
+                    "enableSB": "เปิดใช้ SponsorBlock",
+                    "manualSkip": "ข้ามช่วงของ SponsorBlock ด้วยตนเอง",
+                    "segments": "ช่วงของวิดีโอ",
+                    "categories": {
+                        "sponsor": "ข้ามช่วงสปอนเซอร์",
+                        "intro": "ข้ามช่วงอินโทร",
+                        "outro": "ข้ามช่วงเอาท์โทร",
+                        "interaction": "ข้ามช่วงเตือนให้กดติดตามหรือกดไลก์",
+                        "selfpromo": "ข้ามช่วงโปรโมตตัวเอง",
+                        "preview": "ข้ามช่วงตัวอย่าง/สรุปเนื้อหา",
+                        "filler": "ข้ามช่วงพูดนอกเรื่อง/มุกตลก",
+                        "music_offtopic": "ข้ามช่วงที่ไม่ใช่เพลง",
+                        "highlights": "เปิดใช้ไฮไลต์"
+                    },
+                    "showSBToasts": "แสดงการแจ้งเตือนของ SponsorBlock"
+                }
+            },
+            "dearrow": {
+                "title": "การตั้งค่า DeArrow",
+                "options": {
+                    "enableDA": "เปิดใช้ DeArrow",
+                    "enableDAThumbnails": "เปิดใช้ภาพขนาดย่อของ DeArrow"
+                }
+            },
+            "misc": {
+                "title": "การตั้งค่าเบ็ดเตล็ด",
+                "options": {
+                    "endScreenCards": "ซ่อนการ์ดหน้าจอปิดท้าย",
+                    "youThereRenderer": "เปิดใช้การแจ้งเตือน 'ยังดูอยู่หรือไม่'",
+                    "paidPromoOverlay": "เปิดใช้การแสดง 'มีการโปรโมตที่ได้รับค่าตอบแทน'",
+                    "whosWatching": {
+                        "title": "เมนูใครกำลังดูอยู่",
+                        "options": {
+                            "enableWW": "เปิดใช้เมนูใครกำลังดูอยู่",
+                            "permaEnableWW": "เปิดใช้เมนูใครกำลังดูอยู่ตลอดเวลา",
+                            "enableWWOnExit": "เปิดใช้เมนูใครกำลังดูอยู่เมื่อออกจากแอป"
+                        }
+                    },
+                    "fixUI": "แก้ไข UI",
+                    "hqThumbnails": "เปิดใช้ภาพขนาดย่อคุณภาพสูง",
+                    "longPress": "เปิดใช้การกดค้าง",
+                    "shorts": "เปิดใช้ Shorts",
+                    "videoPreviews": "เปิดใช้ตัวอย่างวิดีโอ",
+                    "ttWelcomeMsg": "แสดงข้อความต้อนรับของ TT",
+                    "guestSignInReminder": "แสดงการเตือนให้ลงชื่อเข้าใช้สำหรับผู้เยี่ยมชม",
+                    "reloadHomeOnStartup": "โหลดหน้าแรกใหม่เมื่อเปิดแอป"
+                }
+            },
+            "subtitles": {
+                "title": "การตั้งค่าคำบรรยาย",
+                "options": {
+                    "showLocalSubtitle": "แสดงคำบรรยายภาษาท้องถิ่น",
+                    "showHiddenSubtitles": "แสดงคำบรรยายที่ซ่อนอยู่",
+                    "persistSubtitleLanguage": "จดจำภาษาของคำบรรยาย"
+                }
+            },
+            "videoPlayer": {
+                "title": "การตั้งค่าเครื่องเล่นวิดีโอ",
+                "subtitle": "ปรับแต่งฟีเจอร์ของเครื่องเล่นวิดีโอ",
+                "options": {
+                    "preferredVideoQuality": {
+                        "title": "คุณภาพวิดีโอที่ต้องการ",
+                        "subtitle": "เลือกคุณภาพวิดีโอที่ต้องการ หากไม่มีจะใช้คุณภาพที่ใกล้เคียงที่สุดเมื่อเริ่มเล่น"
+                    },
+                    "preferredVideoCodec": {
+                        "title": "ตัวแปลงรหัสวิดีโอที่ต้องการ",
+                        "subtitle": "เลือกตัวแปลงรหัสวิดีโอที่ต้องการใช้ในการเล่น"
+                    },
+                    "afr": "อัตราเฟรมอัตโนมัติ",
+                    "afrPauseDuration": {
+                        "title": "ระยะเวลาหยุดชั่วคราวของอัตราเฟรมอัตโนมัติ",
+                        "subtitle": "ตั้งค่าระยะเวลา (เป็นวินาที) ที่จะหยุดเล่นวิดีโอชั่วคราวเมื่อปรับอัตราเฟรม"
+                    },
+                    "codecAny": "ใดก็ได้",
+                    "qualityAuto": "อัตโนมัติ",
+                    "hideRelatedVideosPlayer": "ซ่อนวิดีโอที่เกี่ยวข้อง"
+                }
+            },
+            "time": {
+                "second": "{{count}} วินาที",
+                "seconds": "{{count}} วินาที",
+                "minute": "{{count}} นาที",
+                "minutes": "{{count}} นาที"
+            },
+            "uiSettings": {
+                "title": "การตั้งค่าส่วนติดต่อผู้ใช้",
+                "subtitle": "ปรับแต่ง UI ให้ตรงใจคุณ",
+                "options": {
+                    "hideWatchedVideos": {
+                        "title": "ซ่อนวิดีโอที่ดูแล้ว",
+                        "options": {
+                            "enableHideWatchedVideos": "เปิดใช้การซ่อนวิดีโอที่ดูแล้ว",
+                            "watchedVideosThreshold": {
+                                "title": "เกณฑ์วิดีโอที่ดูแล้ว",
+                                "subtitle": "ตั้งค่าเปอร์เซ็นต์ที่ใช้เป็นเกณฑ์ในการซ่อนวิดีโอที่ดูแล้ว"
+                            },
+                            "setPagesToHideWatchedVideos": "ตั้งค่าหน้าที่จะซ่อนวิดีโอที่ดูแล้ว"
+                        }
+                    },
+                    "screenDimming": {
+                        "title": "หรี่หน้าจอ",
+                        "options": {
+                            "enableScreenDimming": "เปิดใช้การหรี่หน้าจอ",
+                            "dimmingTimeout": {
+                                "title": "เวลาก่อนหรี่หน้าจอ",
+                                "subtitle": "ตั้งค่าระยะเวลา (เป็นวินาที) ที่ไม่มีการใช้งานก่อนที่หน้าจอจะหรี่ลง"
+                            },
+                            "dimmingOpacity": {
+                                "title": "ความทึบของการหรี่หน้าจอ",
+                                "subtitle": "ตั้งค่าระดับความทึบเมื่อหรี่หน้าจอ"
+                            }
+                        }
+                    },
+                    "disableSidebarContents": {
+                        "title": "ปิดรายการในแถบด้านข้าง",
+                        "subtitle": "เลือกรายการในแถบด้านข้างที่ต้องการปิด"
+                    },
+                    "sortSidebarContents": {
+                        "title": "จัดเรียงรายการในแถบด้านข้าง",
+                        "subtitle": "จัดลำดับรายการในแถบด้านข้างตามที่คุณต้องการ",
+                        "moveUp": {
+                            "title": "เลื่อนขึ้น",
+                            "subtitle": "เลื่อนรายการนี้ขึ้นในแถบด้านข้าง"
+                        },
+                        "moveDown": {
+                            "title": "เลื่อนลง",
+                            "subtitle": "เลื่อนรายการนี้ลงในแถบด้านข้าง"
+                        },
+                        "addToSidebar": "เพิ่มช่องในแถบด้านข้าง",
+                        "removeFromSidebar": "นำช่องออกจากแถบด้านข้าง"
+                    },
+                    "launchToOnStartup": {
+                        "title": "หน้าที่เปิดเมื่อเริ่มต้น",
+                        "subtitle": "เลือกหน้าเริ่มต้นที่ YouTube จะเปิดขึ้นเมื่อเปิดแอป"
+                    },
+                    "categories": {
+                        "search": "ค้นหา",
+                        "home": "หน้าแรก",
+                        "sports": "กีฬา",
+                        "news": "ข่าว",
+                        "music": "เพลง",
+                        "podcasts": "พอดแคสต์",
+                        "moviesAndTv": "ภาพยนตร์และทีวี",
+                        "live": "สด",
+                        "gaming": "เกม",
+                        "subscriptions": "การติดตาม",
+                        "library": "คลัง",
+                        "more": "เพิ่มเติม",
+                        "searchResults": "ผลการค้นหา"
+                    },
+                    "sortSubscriptionsByAlphabet": "เรียงการติดตามตามตัวอักษร",
+                    "disableChannelsOnSidebar": "ปิดช่องในแถบด้านข้าง",
+                    "clock": {
+                        "title": "นาฬิกา",
+                        "subtitle": "แสดงนาฬิกาบนหน้าจอ",
+                        "options": {
+                            "enableClock": "เปิดใช้นาฬิกา",
+                            "isClock12HourFormat": "ใช้รูปแบบ 12 ชั่วโมงสำหรับนาฬิกา",
+                            "clockShowSeconds": "แสดงวินาทีบนนาฬิกา",
+                            "clockHideWhenVideoPlaying": "ซ่อนนาฬิกาขณะเล่นวิดีโอ"
+                        }
+                    },
+                    "disableEnlargingThumbnails": "ปิดการขยายภาพขนาดย่อ",
+                    "enableShrinkingThumbnails": "เปิดใช้การย่อภาพขนาดย่อ"
+                }
+            }
+        },
+        "ttSettings": {
+            "title": "การตั้งค่า YouTube",
+            "summary": "เปิดการตั้งค่า YouTube"
+        }
+    },
+    "welcomeMsg": {
+        "title": "ยินดีต้อนรับสู่ YouTube",
+        "subtitle": "ไปที่การตั้งค่าแล้วเลือกการตั้งค่า YouTube เพื่อปรับแต่ง"
+    },
+    "sponsorblock": {
+        "segments": {
+            "sponsor": "ช่วงสปอนเซอร์",
+            "intro": "อินโทร",
+            "outro": "เอาท์โทร",
+            "interaction": "การเตือนให้มีส่วนร่วม",
+            "selfpromo": "การโปรโมตตัวเอง",
+            "preview": "ช่วงสรุปหรือตัวอย่าง",
+            "filler": "ช่วงพูดนอกเรื่อง",
+            "music_offtopic": "ช่วงที่ไม่ใช่เพลง",
+            "poi_highlight": "ไฮไลต์"
+        },
+        "toasts": {
+            "skipping": "กำลังข้าม{{segment}}",
+            "notSkipping": "ไม่ข้าม{{segment}} (ข้ามไปแล้ว {{count}} ครั้ง)",
+            "skip": "ข้าม{{segment}}",
+            "skipToHighlight": "ข้ามไปที่ไฮไลต์"
+        }
+    },
+    "player": {
+        "screenOff": "ปิดหน้าจอ"
+    },
+    "toasts": {
+        "videoAddedToQueue": "เพิ่มวิดีโอลงในคิวแล้ว",
+        "videoQueueCleared": "ล้างคิววิดีโอแล้ว",
+        "sidebarContentsUpdated": {
+            "title": "อัปเดตรายการในแถบด้านข้างแล้ว",
+            "subtitle": "อัปเดตรายการในแถบด้านข้างเรียบร้อยแล้ว"
+        }
+    }
+}

@@ -1,0 +1,217 @@
+{
+    "__contributors": [
+        "AI Assistant (Simplified Chinese)"
+    ],
+    "settings": {
+        "options": {
+            "adBlock": "广告拦截",
+            "sponsorblock": {
+                "title": "SponsorBlock 设置",
+                "options": {
+                    "enableSB": "启用 SponsorBlock",
+                    "manualSkip": "手动跳过 SponsorBlock 片段",
+                    "segments": "片段类型",
+                    "categories": {
+                        "sponsor": "跳过赞助片段",
+                        "intro": "跳过片头片段",
+                        "outro": "跳过片尾片段",
+                        "interaction": "跳过互动提醒片段",
+                        "selfpromo": "跳过自我推广片段",
+                        "preview": "跳过预览/回顾片段",
+                        "filler": "跳过闲聊/玩笑片段",
+                        "music_offtopic": "跳过无关音乐片段",
+                        "highlights": "启用高光片段"
+                    },
+                    "showSBToasts": "显示 SponsorBlock 提示"
+                }
+            },
+            "dearrow": {
+                "title": "DeArrow 设置",
+                "options": {
+                    "enableDA": "启用 DeArrow",
+                    "enableDAThumbnails": "启用 DeArrow 缩略图"
+                }
+            },
+            "misc": {
+                "title": "其他设置",
+                "options": {
+                    "endScreenCards": "隐藏片尾卡片",
+                    "youThereRenderer": "启用“您还在观看吗？”提示",
+                    "paidPromoOverlay": "启用“包含付费推广”标识",
+                    "whosWatching": {
+                        "title": "谁在观看菜单",
+                        "options": {
+                            "enableWW": "启用谁在观看菜单",
+                            "permaEnableWW": "永久启用谁在观看菜单",
+                            "enableWWOnExit": "退出应用时显示谁在观看菜单"
+                        }
+                    },
+                    "fixUI": "修复界面",
+                    "hqThumbnails": "启用高清缩略图",
+                    "longPress": "启用长按操作",
+                    "shorts": "启用 Shorts",
+                    "videoPreviews": "启用视频预览",
+                    "ttWelcomeMsg": "显示 YouTube 欢迎消息",
+                    "guestSignInReminder": "显示访客登录提醒",
+                    "reloadHomeOnStartup": "启动时重新加载首页"
+                }
+            },
+            "subtitles": {
+                "title": "字幕设置",
+                "options": {
+                    "showLocalSubtitle": "显示本地字幕",
+                    "showHiddenSubtitles": "显示隐藏字幕",
+                    "persistSubtitleLanguage": "记住字幕语言"
+                }
+            },
+            "videoPlayer": {
+                "title": "视频播放器设置",
+                "subtitle": "自定义视频播放器功能",
+                "options": {
+                    "preferredVideoQuality": {
+                        "title": "首选视频画质",
+                        "subtitle": "选择播放开始时应用的首选或次优视频画质"
+                    },
+                    "preferredVideoCodec": {
+                        "title": "首选视频编码",
+                        "subtitle": "选择播放时的首选视频编码"
+                    },
+                    "afr": "自动帧率",
+                    "afrPauseDuration": {
+                        "title": "自动帧率暂停时长",
+                        "subtitle": "设置调整帧率时暂停视频播放的时长（秒）"
+                    },
+                    "codecAny": "任意",
+                    "qualityAuto": "自动",
+                    "hideRelatedVideosPlayer": "隐藏相关视频"
+                }
+            },
+            "time": {
+                "second": "{{count}} 秒",
+                "seconds": "{{count}} 秒",
+                "minute": "{{count}} 分钟",
+                "minutes": "{{count}} 分钟"
+            },
+            "uiSettings": {
+                "title": "界面设置",
+                "subtitle": "按您的喜好自定义界面",
+                "options": {
+                    "hideWatchedVideos": {
+                        "title": "隐藏已观看视频",
+                        "options": {
+                            "enableHideWatchedVideos": "启用隐藏已观看视频",
+                            "watchedVideosThreshold": {
+                                "title": "已观看视频阈值",
+                                "subtitle": "设置隐藏已观看视频的百分比阈值"
+                            },
+                            "setPagesToHideWatchedVideos": "设置要隐藏已观看视频的页面"
+                        }
+                    },
+                    "screenDimming": {
+                        "title": "屏幕调暗",
+                        "options": {
+                            "enableScreenDimming": "启用屏幕调暗",
+                            "dimmingTimeout": {
+                                "title": "调暗超时",
+                                "subtitle": "设置无操作后屏幕调暗的超时时间（秒）"
+                            },
+                            "dimmingOpacity": {
+                                "title": "调暗不透明度",
+                                "subtitle": "设置屏幕调暗的不透明度级别"
+                            }
+                        }
+                    },
+                    "disableSidebarContents": {
+                        "title": "禁用侧边栏内容",
+                        "subtitle": "选择要禁用的侧边栏内容"
+                    },
+                    "sortSidebarContents": {
+                        "title": "排序侧边栏内容",
+                        "subtitle": "按您的偏好重新排序侧边栏内容",
+                        "moveUp": {
+                            "title": "上移",
+                            "subtitle": "将此项目在侧边栏中上移"
+                        },
+                        "moveDown": {
+                            "title": "下移",
+                            "subtitle": "将此项目在侧边栏中下移"
+                        },
+                        "addToSidebar": "将频道添加到侧边栏",
+                        "removeFromSidebar": "从侧边栏移除频道"
+                    },
+                    "launchToOnStartup": {
+                        "title": "启动时打开页面",
+                        "subtitle": "选择 YouTube 启动时默认打开的页面"
+                    },
+                    "categories": {
+                        "search": "搜索",
+                        "home": "首页",
+                        "sports": "体育",
+                        "news": "新闻",
+                        "music": "音乐",
+                        "podcasts": "播客",
+                        "moviesAndTv": "电影与电视",
+                        "live": "直播",
+                        "gaming": "游戏",
+                        "subscriptions": "订阅",
+                        "library": "媒体库",
+                        "more": "更多",
+                        "searchResults": "搜索结果"
+                    },
+                    "sortSubscriptionsByAlphabet": "按字母顺序排序订阅",
+                    "disableChannelsOnSidebar": "禁用侧边栏频道",
+                    "clock": {
+                        "title": "时钟",
+                        "subtitle": "在屏幕上显示时钟",
+                        "options": {
+                            "enableClock": "启用时钟",
+                            "isClock12HourFormat": "使用 12 小时制",
+                            "clockShowSeconds": "显示秒数",
+                            "clockHideWhenVideoPlaying": "视频播放时隐藏时钟"
+                        }
+                    },
+                    "disableEnlargingThumbnails": "禁用放大缩略图",
+                    "enableShrinkingThumbnails": "启用缩小缩略图"
+                }
+            }
+        },
+        "ttSettings": {
+            "title": "YouTube 设置",
+            "summary": "打开 YouTube 设置"
+        }
+    },
+    "welcomeMsg": {
+        "title": "欢迎使用 YouTube",
+        "subtitle": "请前往设置并点击 YouTube 设置进行配置。"
+    },
+    "sponsorblock": {
+        "segments": {
+            "sponsor": "赞助片段",
+            "intro": "片头",
+            "outro": "片尾",
+            "interaction": "互动提醒",
+            "selfpromo": "自我推广",
+            "preview": "回顾或预览",
+            "filler": "闲聊",
+            "music_offtopic": "非音乐部分",
+            "poi_highlight": "高光"
+        },
+        "toasts": {
+            "skipping": "正在跳过 {{segment}}",
+            "notSkipping": "未跳过 {{segment}}（已跳过 {{count}} 次）",
+            "skip": "跳过 {{segment}}",
+            "skipToHighlight": "跳转到高光"
+        }
+    },
+    "player": {
+        "screenOff": "关闭屏幕"
+    },
+    "toasts": {
+        "videoAddedToQueue": "视频已添加到队列。",
+        "videoQueueCleared": "视频队列已清空。",
+        "sidebarContentsUpdated": {
+            "title": "侧边栏内容已更新",
+            "subtitle": "侧边栏内容已更新。"
+        }
+    }
+}

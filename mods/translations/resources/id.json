@@ -1,0 +1,217 @@
+{
+    "__contributors": [
+        "thegouhund"
+    ],
+    "settings": {
+        "options": {
+            "adBlock": "Pemblokir Iklan",
+            "sponsorblock": {
+                "title": "Pengaturan SponsorBlock",
+                "options": {
+                    "enableSB": "Aktifkan SponsorBlock",
+                    "manualSkip": "Lewati Segmen SponsorBlock Secara Manual",
+                    "segments": "Segmen",
+                    "categories": {
+                        "sponsor": "Lewati Segmen Sponsor",
+                        "intro": "Lewati Segmen Intro",
+                        "outro": "Lewati Segmen Outro",
+                        "interaction": "Lewati Segmen Pengingat Interaksi",
+                        "selfpromo": "Lewati Segmen Promosi Diri",
+                        "preview": "Lewati Segmen Pratinjau/Rekap",
+                        "filler": "Lewati Segmen OOT/Lelucon",
+                        "music_offtopic": "Lewati Segmen Musik di Luar Topik",
+                        "highlights": "Aktifkan Sorotan"
+                    },
+                    "showSBToasts": "Tampilkan Notifikasi SponsorBlock"
+                }
+            },
+            "dearrow": {
+                "title": "Pengaturan DeArrow",
+                "options": {
+                    "enableDA": "Aktifkan DeArrow",
+                    "enableDAThumbnails": "Aktifkan Thumbnail DeArrow"
+                }
+            },
+            "misc": {
+                "title": "Pengaturan Lainnya",
+                "options": {
+                    "endScreenCards": "Sembunyikan Kartu Layar Akhir",
+                    "youThereRenderer": "Aktifkan Renderer 'Masih menonton?'",
+                    "paidPromoOverlay": "Aktifkan Overlay 'Mengandung promosi berbayar'",
+                    "whosWatching": {
+                        "title": "Menu Siapa yang Menonton",
+                        "options": {
+                            "enableWW": "Aktifkan Menu Siapa yang Menonton",
+                            "permaEnableWW": "Aktifkan Menu Siapa yang Menonton Secara Permanen",
+                            "enableWWOnExit": "Aktifkan Menu Siapa yang Menonton saat Keluar Aplikasi"
+                        }
+                    },
+                    "fixUI": "Perbaiki UI",
+                    "hqThumbnails": "Aktifkan Thumbnail Kualitas Tinggi",
+                    "longPress": "Aktifkan Aksi Tekan Lama",
+                    "shorts": "Aktifkan Shorts",
+                    "videoPreviews": "Aktifkan Pratinjau Video",
+                    "ttWelcomeMsg": "Tampilkan Pesan Selamat Datang TT",
+                    "guestSignInReminder": "Tampilkan Pengingat Masuk Tamu",
+                    "reloadHomeOnStartup": "Muat Ulang Beranda saat Startup"
+                }
+            },
+            "subtitles": {
+                "title": "Pengaturan Subtitle",
+                "options": {
+                    "showLocalSubtitle": "Tampilkan Subtitle Lokal",
+                    "showHiddenSubtitles": "Tampilkan Subtitle Tersembunyi",
+                    "persistSubtitleLanguage": "Ingat Bahasa Subtitle"
+                }
+            },
+            "videoPlayer": {
+                "title": "Pengaturan Pemutar Video",
+                "subtitle": "Sesuaikan fitur pemutar video",
+                "options": {
+                    "preferredVideoQuality": {
+                        "title": "Kualitas Video Pilihan",
+                        "subtitle": "Pilih kualitas video pilihan atau kualitas terbaik berikutnya yang diterapkan saat pemutaran dimulai"
+                    },
+                    "preferredVideoCodec": {
+                        "title": "Codec Video Pilihan",
+                        "subtitle": "Pilih codec video pilihan untuk pemutaran"
+                    },
+                    "afr": "Frame Rate Otomatis",
+                    "afrPauseDuration": {
+                        "title": "Durasi Jeda Frame Rate Otomatis",
+                        "subtitle": "Atur durasi (dalam detik) untuk menjeda pemutaran video saat menyesuaikan frame rate"
+                    },
+                    "codecAny": "Any",
+                    "qualityAuto": "Auto",
+                    "hideRelatedVideosPlayer": "Hide Related Videos"
+                }
+            },
+            "uiSettings": {
+                "title": "Pengaturan Antarmuka",
+                "subtitle": "Sesuaikan UI sesuai keinginan Anda",
+                "options": {
+                    "hideWatchedVideos": {
+                        "title": "Sembunyikan Video yang Sudah Ditonton",
+                        "options": {
+                            "enableHideWatchedVideos": "Aktifkan Sembunyikan Video yang Sudah Ditonton",
+                            "watchedVideosThreshold": {
+                                "title": "Batas Video Ditonton",
+                                "subtitle": "Atur batas persentase untuk menyembunyikan video yang sudah ditonton"
+                            },
+                            "setPagesToHideWatchedVideos": "Atur Halaman untuk Menyembunyikan Video yang Telah Ditonton"
+                        }
+                    },
+                    "screenDimming": {
+                        "title": "Peredupan Layar",
+                        "options": {
+                            "enableScreenDimming": "Aktifkan Peredupan Layar",
+                            "dimmingTimeout": {
+                                "title": "Batas Waktu Peredupan",
+                                "subtitle": "Atur batas waktu tidak aktif (dalam detik) sebelum layar meredup"
+                            },
+                            "dimmingOpacity": {
+                                "title": "Opasitas Peredupan",
+                                "subtitle": "Atur tingkat opasitas untuk peredupan layar"
+                            }
+                        }
+                    },
+                    "disableSidebarContents": {
+                        "title": "Nonaktifkan Konten Sidebar",
+                        "subtitle": "Pilih konten sidebar yang ingin dinonaktifkan"
+                    },
+                    "launchToOnStartup": {
+                        "title": "Halaman yang Dibuka saat Startup",
+                        "subtitle": "Pilih halaman default yang dibuka YouTube saat startup"
+                    },
+                    "sortSubscriptionsByAlphabet": "Sort Subscriptions Alphabetically",
+                    "categories": {
+                        "search": "Search",
+                        "home": "Home",
+                        "sports": "Sports",
+                        "news": "News",
+                        "music": "Music",
+                        "podcasts": "Podcasts",
+                        "moviesAndTv": "Movies & TV",
+                        "live": "Live",
+                        "gaming": "Gaming",
+                        "subscriptions": "Subscriptions",
+                        "library": "Library",
+                        "more": "More",
+                        "searchResults": "Search Results"
+                    },
+                    "disableChannelsOnSidebar": "Disable Channels on Sidebar",
+                    "clock": {
+                        "title": "Clock",
+                        "subtitle": "Display a clock on the screen",
+                        "options": {
+                            "enableClock": "Enable Clock",
+                            "isClock12HourFormat": "Use 12-Hour Format for Clock",
+                            "clockShowSeconds": "Show Seconds on Clock",
+                            "clockHideWhenVideoPlaying": "Hide Clock While Video is Playing"
+                        }
+                    },
+                    "disableEnlargingThumbnails": "Disable Enlarged Thumbnails",
+                    "enableShrinkingThumbnails": "Enable Shrinked Thumbnails",
+                    "sortSidebarContents": {
+                        "title": "Sort Sidebar Contents",
+                        "subtitle": "Reorder sidebar contents to your preference",
+                        "moveUp": {
+                            "title": "Move Up",
+                            "subtitle": "Move this item up in the sidebar"
+                        },
+                        "moveDown": {
+                            "title": "Move Down",
+                            "subtitle": "Move this item down in the sidebar"
+                        },
+                        "addToSidebar": "Add Channel to Sidebar",
+                        "removeFromSidebar": "Remove Channel from Sidebar"
+                    }
+                }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
+            }
+        },
+        "ttSettings": {
+            "title": "Pengaturan YouTube",
+            "summary": "Buka Pengaturan YouTube"
+        }
+    },
+    "welcomeMsg": {
+        "title": "Selamat Datang di YouTube",
+        "subtitle": "Buka pengaturan lalu klik Pengaturan YouTube untuk mengatur fitur."
+    },
+    "sponsorblock": {
+        "segments": {
+            "sponsor": "segmen sponsor",
+            "intro": "intro",
+            "outro": "outro",
+            "interaction": "pengingat interaksi",
+            "selfpromo": "promosi diri",
+            "preview": "rekap atau pratinjau",
+            "filler": "lelucon",
+            "music_offtopic": "bagian non-musik",
+            "poi_highlight": "sorotan"
+        },
+        "toasts": {
+            "skipping": "Melewati {{segment}}",
+            "notSkipping": "Tidak melewati {{segment}} (sudah dilewati {{count}} kali)",
+            "skip": "Lewati {{segment}}",
+            "skipToHighlight": "Lewati ke sorotan"
+        }
+    },
+    "player": {
+        "screenOff": "Turn off screen"
+    },
+    "toasts": {
+        "videoAddedToQueue": "Video added to queue.",
+        "videoQueueCleared": "Video queue cleared.",
+        "sidebarContentsUpdated": {
+            "title": "Sidebar Contents Updated",
+            "subtitle": "The sidebar contents have been updated."
+        }
+    }
+}

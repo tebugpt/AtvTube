@@ -1,0 +1,20 @@
+import "./features/userAgentSpoofing.js";
+import "whatwg-fetch";
+import "core-js/proposals/object-getownpropertydescriptors";
+
+import './translations/index.js'
+import "./domrect-polyfill";
+import "./features/adblock.js";
+import "./features/sponsorblock.js";
+import "./ui/ui.js";
+import "./ui/theme.js";
+import "./ui/settings.js";
+import "./ui/disableWhosWatching.js";
+import "./features/moreSubtitles.js";
+import "./features/persistSubtitleLanguage.js";
+import "./features/preferredVideoQuality.js";
+import "./features/videoQueuing.js";
+import "./features/enableFeatures.js";
+import "./ui/customGuideAction.js";
+import "./features/autoFrameRate.js";
+import "./ui/clock.js";
