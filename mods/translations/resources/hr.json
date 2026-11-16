@@ -68,9 +68,25 @@
                 "title": "Postavke video playera",
                 "subtitle": "Prilagodite značajke video playera",
                 "options": {
+                    "patching": {
+                        "title": "Zakrpe za sučelje playera",
+                        "options": {
+                            "enableVPUIPatching": "Omogući zakrpe za UI playera",
+                            "previousNextBtns": "Omogući tipke Prethodno i Sljedeće",
+                            "showSuperThxBtn": "Prikaži tipku 'Super hvala'",
+                            "showSpeedCtrlBtn": "Prikaži kontrole brzine",
+                            "addMPBtn": "Prikaži tipku za mini player",
+                            "swapMPWithPIP": "Zamijeni tipku mini playera s PiP tipkom",
+                            "showAIAskBtn": "Show Ask Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Željena kvaliteta videozapisa",
                         "subtitle": "Odaberite željenu ili sljedeću najbolju kvalitetu pri pokretanju"
+                    },
+                    "speedSettings": {
+                        "title": "Koraci promjene brzine",
+                        "subtitle": "Postavite korake za prilagodbu brzine reprodukcije"
                     },
                     "preferredVideoCodec": {
                         "title": "Željeni video kodek",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

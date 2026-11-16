@@ -68,9 +68,25 @@
                 "title": "video pat choHtaHghach",
                 "subtitle": "video pat yIchoH",
                 "options": {
+                    "patching": {
+                        "title": "video pat UI yIchoH",
+                        "options": {
+                            "enableVPUIPatching": "video pat UI yIchu'",
+                            "previousNextBtns": "meryaq yIchu'",
+                            "showSuperThxBtn": "Super Thanks meryaq yIcha'",
+                            "showSpeedCtrlBtn": "Do' choHmeH meryaq yIcha'",
+                            "addMPBtn": "Mini Player meryaq yIcha'",
+                            "swapMPWithPIP": "Mini Player meryaq choH PiP meryaq",
+                            "showAIAskBtn": "Show Ask Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "video QaQ",
                         "subtitle": "video QaQ yInuqlI'"
+                    },
+                    "speedSettings": {
+                        "title": "Do' choHtaHghach",
+                        "subtitle": "Do' yInuqlI'"
                     },
                     "preferredVideoCodec": {
                         "title": "video Codec",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

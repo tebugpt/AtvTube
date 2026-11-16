@@ -68,9 +68,25 @@
                 "title": "Video atskaņotāja iestatījumi",
                 "subtitle": "Pielāgot video atskaņotāja funkcijas",
                 "options": {
+                    "patching": {
+                        "title": "Video atskaņotāja UI ielāpi",
+                        "options": {
+                            "enableVPUIPatching": "Iespējot video atskaņotāja UI ielāpus",
+                            "previousNextBtns": "Iespējot pogas 'Iepriekšējais' un 'Nākamais'",
+                            "showSuperThxBtn": "Rādīt 'Super Thanks' pogu",
+                            "showSpeedCtrlBtn": "Rādīt ātruma kontroles pogu",
+                            "showAIAskBtn": "Show Ask Button",
+                            "addMPBtn": "Show Mini Player Button",
+                            "swapMPWithPIP": "Swap Mini Player Button with PiP Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Vēlamā video kvalitāte",
                         "subtitle": "Izvēlieties vēlamo vai nākamo labāko video kvalitāti atskaņošanas sākumā"
+                    },
+                    "speedSettings": {
+                        "title": "Ātruma iestatījumu soļi",
+                        "subtitle": "Iestatiet ātruma pieauguma soļus video atskaņošanas pielāgošanai"
                     },
                     "preferredVideoCodec": {
                         "title": "Vēlamais video kodeks",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

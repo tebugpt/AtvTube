@@ -423,6 +423,22 @@ function TileRenderer(simpleText, onSelectCommand) {
     }
 }
 
+function QrCodeRenderer(url) {
+    return {
+        qrCodeRenderer: {
+            qrCodeImage: {
+                thumbnails: [
+                    {
+                        url
+                    }
+                ]
+            },
+            style: "QR_CODE_RENDERER_STYLE_ATA_SIDESHEET",
+            trackingParams: null
+        }
+    }
+}
+
 function ButtonRenderer(disabled, text, iconType, command) {
     return {
         isDisabled: disabled,
@@ -488,6 +504,7 @@ export {
     SettingActionRenderer,
     ShelfRenderer,
     TileRenderer,
+    QrCodeRenderer,
     ButtonRenderer,
     GuideEntryRenderer
 }

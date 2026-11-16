@@ -255,6 +255,49 @@ export default function modernUI(update, parameters) {
             },
             options: [
                 {
+                    name: t('settings.options.videoPlayer.options.patching.title'),
+                    icon: 'SETTINGS',
+                    value: null,
+                    menuId: 'tt-video-player-ui-patching',
+                    options: [
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.enableVPUIPatching'),
+                            icon: 'SETTINGS',
+                            value: 'enablePatchingVideoPlayer'
+                        },
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.previousNextBtns'),
+                            icon: 'SKIP_NEXT',
+                            value: 'enablePreviousNextButtons'
+                        },
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.showSuperThxBtn'),
+                            icon: 'MONEY_HEART',
+                            value: 'enableSuperThanksButton'
+                        },
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.showAIAskBtn'),
+                            icon: 'SPARK',
+                            value: 'enableAIAskButton'
+                        },
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.showSpeedCtrlBtn'),
+                            icon: 'SLOW_MOTION_VIDEO',
+                            value: 'enableSpeedControlsButton'
+                        },
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.addMPBtn'),
+                            icon: 'CLEAR_COOKIES',
+                            value: 'enableMPButton'
+                        },
+                        {
+                            name: t('settings.options.videoPlayer.options.patching.options.swapMPWithPIP'),
+                            icon: 'CLEAR_COOKIES',
+                            value: 'enableSwapMPWithPIP'
+                        }
+                    ]
+                },
+                {
                     name: t('settings.options.videoPlayer.options.preferredVideoQuality.title'),
                     icon: 'VIDEO_QUALITY',
                     value: null,
@@ -272,6 +315,23 @@ export default function modernUI(update, parameters) {
                             }
                         })
 
+                },
+                {
+                    name: t('settings.options.videoPlayer.options.speedSettings.title'),
+                    icon: 'SLOW_MOTION_VIDEO',
+                    value: null,
+                    menuId: 'tt-speed-settings-increments',
+                    menuHeader: {
+                        title: t('settings.options.videoPlayer.options.speedSettings.title'),
+                        subtitle: t('settings.options.videoPlayer.options.speedSettings.subtitle')
+                    },
+                    options: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5].map((increment) => {
+                        return {
+                            name: `${increment}x`,
+                            key: 'speedSettingsIncrement',
+                            value: increment
+                        }
+                    })
                 },
                 {
                     name: t('settings.options.videoPlayer.options.hideRelatedVideosPlayer'),

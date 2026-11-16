@@ -69,9 +69,25 @@
                 "title": "Cài đặt trình phát video",
                 "subtitle": "Tùy chỉnh các tính năng của trình phát video",
                 "options": {
+                    "patching": {
+                        "title": "Vá giao diện trình phát video",
+                        "options": {
+                            "enableVPUIPatching": "Bật vá giao diện trình phát video",
+                            "previousNextBtns": "Bật nút Trước và Tiếp theo",
+                            "showSuperThxBtn": "Hiển thị nút Super Thanks",
+                            "showAIAskBtn": "Hiển thị nút Đặt câu hỏi",
+                            "showSpeedCtrlBtn": "Hiển thị nút Điều khiển tốc độ",
+                            "addMPBtn": "Hiển thị nút Trình phát nhỏ",
+                            "swapMPWithPIP": "Đổi nút Trình phát nhỏ thành Picture-In-Picture"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Chất lượng video ưu tiên",
                         "subtitle": "Chọn chất lượng video được áp dụng khi bắt đầu phát"
+                    },
+                    "speedSettings": {
+                        "title": "Mức tăng cài đặt tốc độ",
+                        "subtitle": "Đặt mức tăng tốc độ để điều chỉnh tốc độ phát video"
                     },
                     "preferredVideoCodec": {
                         "title": "Bộ giải mã ưu tiên",
@@ -205,6 +221,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Tốc độ phát video",
+            "button": "Điều chỉnh tốc độ",
+            "fixStuttering": "Sửa lỗi xé ảnh (1.0001x)"
+        },
+        "miniPlayer": "Trình phát nhỏ",
+        "pictureInPicture": "Picture-in-Picture",
+        "previous": "Trước",
+        "next": "Tiếp",
+        "withTizenTube": "với YouTube",
+        "share": {
+            "title": "Chia sẻ",
+            "button": "Chia sẻ",
+            "qrCodeScanMessage": "Quét mã QR ở dưới để chia sẻ video này."
+        },
         "screenOff": "Tắt màn hình"
     },
     "toasts": {

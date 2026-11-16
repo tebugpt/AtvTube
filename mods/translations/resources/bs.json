@@ -68,9 +68,25 @@
                 "title": "Postavke video plejera",
                 "subtitle": "Prilagodite funkcije video plejera",
                 "options": {
+                    "patching": {
+                        "title": "Zakrpe za interfejs plejera",
+                        "options": {
+                            "enableVPUIPatching": "Omogući zakrpe za UI plejera",
+                            "previousNextBtns": "Omogući tipke Prethodno i Sljedeće",
+                            "showSuperThxBtn": "Prikaži tipku 'Super Thanks'",
+                            "showSpeedCtrlBtn": "Prikaži kontrole brzine",
+                            "addMPBtn": "Prikaži tipku za mini plejer",
+                            "swapMPWithPIP": "Zamijeni tipku mini plejera sa PiP tipkom",
+                            "showAIAskBtn": "Show Ask Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Željeni kvalitet videa",
                         "subtitle": "Odaberite željeni ili sljedeći najbolji kvalitet pri pokretanju videa"
+                    },
+                    "speedSettings": {
+                        "title": "Koraci povećanja brzine",
+                        "subtitle": "Podesite korake za prilagođavanje brzine reprodukcije"
                     },
                     "preferredVideoCodec": {
                         "title": "Željeni video kodek",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

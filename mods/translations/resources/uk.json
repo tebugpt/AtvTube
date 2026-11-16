@@ -68,9 +68,25 @@
                 "title": "Налаштування відеоплеєра",
                 "subtitle": "Налаштування функцій відеоплеєра",
                 "options": {
+                    "patching": {
+                        "title": "Патч інтерфейсу відеоплеєра",
+                        "options": {
+                            "enableVPUIPatching": "Увімкнути патч інтерфейсу відеоплеєра",
+                            "previousNextBtns": "Кнопки «Попереднє/Наступне»",
+                            "showSuperThxBtn": "Кнопка Super Thanks",
+                            "showAIAskBtn": "Показувати кнопку «Запитати ШІ»",
+                            "showSpeedCtrlBtn": "Кнопка швидкості",
+                            "addMPBtn": "Кнопка мініплеєра",
+                            "swapMPWithPIP": "Замінити кнопку мініплеєра на кнопку PiP"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Бажана якість відео",
                         "subtitle": "Виберіть бажану або найближчу кращу якість відео під час запуску відтворення"
+                    },
+                    "speedSettings": {
+                        "title": "Крок зміни швидкості",
+                        "subtitle": "Установіть крок зміни швидкості для керування швидкістю відтворення"
                     },
                     "preferredVideoCodec": {
                         "title": "Бажаний кодек",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Швидкість відтворення",
+            "button": "Керування швидкістю",
+            "fixStuttering": "Усунути підгальмовування (1.0001x)"
+        },
+        "miniPlayer": "Мініплеєр",
+        "pictureInPicture": "Картинка в картинці (PiP)",
+        "previous": "Попереднє",
+        "next": "Наступне",
+        "withTizenTube": "з YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

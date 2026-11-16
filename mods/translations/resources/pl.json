@@ -68,9 +68,25 @@
                 "title": "Ustawienia odtwarzacza",
                 "subtitle": "Dostosuj funkcje odtwarzacza wideo",
                 "options": {
+                    "patching": {
+                        "title": "Modyfikacje interfejsu odtwarzacza",
+                        "options": {
+                            "enableVPUIPatching": "Włącz modyfikację interfejsu odtwarzacza",
+                            "previousNextBtns": "Włącz przyciski Poprzedni i Następny",
+                            "showSuperThxBtn": "Pokaż przycisk Super Podziękowania",
+                            "showAIAskBtn": "Pokaż przycisk Zapytaj",
+                            "showSpeedCtrlBtn": "Pokaż przycisk kontroli prędkości",
+                            "addMPBtn": "Pokaż przycisk miniodtwarzacza",
+                            "swapMPWithPIP": "Zamień miniodtwarzacz na PiP"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Preferowana jakość obrazu",
                         "subtitle": "Wybierz preferowaną lub kolejną najlepszą jakość wideo stosowaną po rozpoczęciu odtwarzania"
+                    },
+                    "speedSettings": {
+                        "title": "Krok zmiany prędkości",
+                        "subtitle": "Ustaw krok zmiany prędkości odtwarzania"
                     },
                     "preferredVideoCodec": {
                         "title": "Preferowany kodek wideo",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Szybkość odtwarzania",
+            "button": "Szybkość",
+            "fixStuttering": "Napraw zacinanie się (1.0001x)"
+        },
+        "miniPlayer": "Miniodtwarzacz",
+        "pictureInPicture": "Obraz w obrazie (PiP)",
+        "previous": "Poprzedni",
+        "next": "Następny",
+        "withTizenTube": "Za pomocą YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

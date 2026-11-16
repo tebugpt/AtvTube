@@ -66,9 +66,25 @@
                 "title": "동영상 플레이어 설정",
                 "subtitle": "동영상 플레이어 기능 맞춤설정",
                 "options": {
+                    "patching": {
+                        "title": "동영상 플레이어 UI 패치",
+                        "options": {
+                            "enableVPUIPatching": "동영상 플레이어 UI 패치 사용",
+                            "previousNextBtns": "이전/다음 버튼 사용",
+                            "showSuperThxBtn": "슈퍼 땡스 버튼 표시",
+                            "showAIAskBtn": "질문 버튼 표시",
+                            "showSpeedCtrlBtn": "속도 조절 버튼 표시",
+                            "addMPBtn": "미니 플레이어 버튼 표시",
+                            "swapMPWithPIP": "미니 플레이어 버튼을 PiP 버튼으로 교체"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "선호 동영상 화질",
                         "subtitle": "재생 시작 시 적용할 선호 화질을 선택하세요. 지원되지 않으면 가장 가까운 화질이 적용됩니다."
+                    },
+                    "speedSettings": {
+                        "title": "재생 속도 조절 단위",
+                        "subtitle": "동영상 재생 속도를 조절할 때의 증감 단위를 설정하세요"
                     },
                     "preferredVideoCodec": {
                         "title": "선호 동영상 코덱",
@@ -202,6 +218,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "재생 속도",
+            "button": "속도 조절",
+            "fixStuttering": "끊김 현상 수정 (1.0001배)"
+        },
+        "miniPlayer": "미니 플레이어",
+        "pictureInPicture": "PIP(화면 속 화면)",
+        "previous": "이전",
+        "next": "다음",
+        "withTizenTube": "YouTube와 함께",
+        "share": {
+            "title": "공유",
+            "button": "공유",
+            "qrCodeScanMessage": "아래 QR 코드를 스캔하여 이 동영상을 공유하세요."
+        },
         "screenOff": "화면 끄기"
     },
     "toasts": {

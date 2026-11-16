@@ -68,9 +68,25 @@
                 "title": "Video Player Settings",
                 "subtitle": "Customize video player features",
                 "options": {
+                    "patching": {
+                        "title": "Patch Video Player UI",
+                        "options": {
+                            "enableVPUIPatching": "Enable Video Player UI Patching",
+                            "previousNextBtns": "Enable Previous and Next Buttons",
+                            "showSuperThxBtn": "Show Super Thanks Button",
+                            "showAIAskBtn": "Show Ask Button",
+                            "showSpeedCtrlBtn": "Show Speed Controls Button",
+                            "addMPBtn": "Show Mini Player Button",
+                            "swapMPWithPIP": "Swap Mini Player Button with PiP Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Preferred Video Quality",
                         "subtitle": "Choose the preferred or next best video quality applied when playback starts"
+                    },
+                    "speedSettings": {
+                        "title": "Speed Settings Increments",
+                        "subtitle": "Set the speed increments for video playback speed adjustments"
                     },
                     "preferredVideoCodec": {
                         "title": "Preferred Video Codec",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

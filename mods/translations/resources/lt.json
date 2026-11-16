@@ -68,9 +68,25 @@
                 "title": "Vaizdo grotuvo nustatymai",
                 "subtitle": "Pritaikykite vaizdo grotuvo funkcijas",
                 "options": {
+                    "patching": {
+                        "title": "Vaizdo grotuvo vartotojo sąsajos pataisos",
+                        "options": {
+                            "enableVPUIPatching": "Įjungti vaizdo grotuvo vartotojo sąsajos pataisas",
+                            "previousNextBtns": "Įjungti mygtukus „Ankstesnis“ ir „Kitas“",
+                            "showSuperThxBtn": "Rodyti mygtuką „Super padėka“",
+                            "showSpeedCtrlBtn": "Rodyti greičio valdymo mygtuką",
+                            "showAIAskBtn": "Show Ask Button",
+                            "addMPBtn": "Show Mini Player Button",
+                            "swapMPWithPIP": "Swap Mini Player Button with PiP Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Pageidaujama vaizdo kokybė",
                         "subtitle": "Pasirinkite pageidaujamą arba antrą geriausią vaizdo kokybę, kuri bus taikoma pradedant atkūrimą"
+                    },
+                    "speedSettings": {
+                        "title": "Greičio nustatymų žingsniai",
+                        "subtitle": "Nustatykite vaizdo įrašo atkūrimo greičio keitimo žingsnius"
                     },
                     "preferredVideoCodec": {
                         "title": "Pageidaujamas vaizdo kodekas",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

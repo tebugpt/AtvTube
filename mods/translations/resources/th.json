@@ -66,9 +66,25 @@
                 "title": "การตั้งค่าเครื่องเล่นวิดีโอ",
                 "subtitle": "ปรับแต่งฟีเจอร์ของเครื่องเล่นวิดีโอ",
                 "options": {
+                    "patching": {
+                        "title": "แพตช์ UI ของเครื่องเล่นวิดีโอ",
+                        "options": {
+                            "enableVPUIPatching": "เปิดใช้การแพตช์ UI ของเครื่องเล่นวิดีโอ",
+                            "previousNextBtns": "เปิดใช้ปุ่มก่อนหน้าและถัดไป",
+                            "showSuperThxBtn": "แสดงปุ่ม Super Thanks",
+                            "showAIAskBtn": "แสดงปุ่มถาม",
+                            "showSpeedCtrlBtn": "แสดงปุ่มควบคุมความเร็ว",
+                            "addMPBtn": "แสดงปุ่มมินิเพลเยอร์",
+                            "swapMPWithPIP": "สลับปุ่มมินิเพลเยอร์เป็นปุ่ม PiP"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "คุณภาพวิดีโอที่ต้องการ",
                         "subtitle": "เลือกคุณภาพวิดีโอที่ต้องการ หากไม่มีจะใช้คุณภาพที่ใกล้เคียงที่สุดเมื่อเริ่มเล่น"
+                    },
+                    "speedSettings": {
+                        "title": "ช่วงปรับความเร็วในการเล่น",
+                        "subtitle": "ตั้งค่าช่วงปรับเพิ่มหรือลดเมื่อเปลี่ยนความเร็วในการเล่นวิดีโอ"
                     },
                     "preferredVideoCodec": {
                         "title": "ตัวแปลงรหัสวิดีโอที่ต้องการ",
@@ -202,6 +218,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "ความเร็วในการเล่น",
+            "button": "ควบคุมความเร็ว",
+            "fixStuttering": "แก้อาการกระตุก (1.0001 เท่า)"
+        },
+        "miniPlayer": "มินิเพลเยอร์",
+        "pictureInPicture": "ภาพซ้อนภาพ",
+        "previous": "ก่อนหน้า",
+        "next": "ถัดไป",
+        "withTizenTube": "พร้อม YouTube",
+        "share": {
+            "title": "แชร์",
+            "button": "แชร์",
+            "qrCodeScanMessage": "สแกนคิวอาร์โค้ดด้านล่างเพื่อแชร์วิดีโอนี้"
+        },
         "screenOff": "ปิดหน้าจอ"
     },
     "toasts": {

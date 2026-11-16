@@ -68,9 +68,25 @@
                 "title": "影片播放器設定",
                 "subtitle": "自訂播放器功能",
                 "options": {
+                    "patching": {
+                        "title": "Patch(修正)影片播放器介面",
+                        "options": {
+                            "enableVPUIPatching": "啟用影片播放器介面修正",
+                            "previousNextBtns": "啟用上一個／下一個按鈕",
+                            "showSuperThxBtn": "顯示超級感謝按鈕",
+                            "showSpeedCtrlBtn": "顯示速度控制按鈕",
+                            "showAIAskBtn": "Show Ask Button",
+                            "addMPBtn": "Show Mini Player Button",
+                            "swapMPWithPIP": "Swap Mini Player Button with PiP Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "影片畫質偏好設定",
                         "subtitle": "選擇影片開始播放時要使用的畫質，若無法套用則改用次佳畫質"
+                    },
+                    "speedSettings": {
+                        "title": "倍速間隔設定",
+                        "subtitle": "調整倍速間隔的大小"
                     },
                     "preferredVideoCodec": {
                         "title": "影片編碼偏好設定",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

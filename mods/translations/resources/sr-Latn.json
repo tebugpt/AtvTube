@@ -68,9 +68,25 @@
                 "title": "Podešavanja video plejera",
                 "subtitle": "Prilagodite funkcije video plejera",
                 "options": {
+                    "patching": {
+                        "title": "Zakrpe za interfejs plejera",
+                        "options": {
+                            "enableVPUIPatching": "Omogući zakrpe za UI plejera",
+                            "previousNextBtns": "Omogući dugmad Prethodno i Sledeće",
+                            "showSuperThxBtn": "Prikaži dugme 'Super Thanks'",
+                            "showSpeedCtrlBtn": "Prikaži kontrole brzine",
+                            "addMPBtn": "Prikaži dugme za mini plejer",
+                            "swapMPWithPIP": "Zameni dugme mini plejera sa PiP dugmetom",
+                            "showAIAskBtn": "Show Ask Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Željeni kvalitet video snimka",
                         "subtitle": "Izaberite željeni ili sledeći najbolji kvalitet pri pokretanju snimka"
+                    },
+                    "speedSettings": {
+                        "title": "Koraci povećanja brzine",
+                        "subtitle": "Podesite korake za prilagođavanje brzine reprodukcije"
                     },
                     "preferredVideoCodec": {
                         "title": "Željeni video kodek",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

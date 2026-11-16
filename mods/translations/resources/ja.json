@@ -68,9 +68,25 @@
                 "title": "動画プレーヤーの設定",
                 "subtitle": "動画プレーヤーの機能をカスタマイズします",
                 "options": {
+                    "patching": {
+                        "title": "動画プレーヤー UI のパッチ",
+                        "options": {
+                            "enableVPUIPatching": "動画プレーヤー UI のパッチを有効化する",
+                            "previousNextBtns": "「前へ」と「次へ」のボタンを有効化する",
+                            "showSuperThxBtn": "Super Thanks ボタンを表示する",
+                            "showAIAskBtn": "質問するボタンを表示する",
+                            "showSpeedCtrlBtn": "速度制御ボタンを表示する",
+                            "addMPBtn": "ミニプレーヤーボタンを表示する",
+                            "swapMPWithPIP": "ミニプレーヤーボタンを PiP ボタンに置き換える"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "優先する動画の画質",
                         "subtitle": "動画再生で優先する画質または、次に最適な画質を選択してください"
+                    },
+                    "speedSettings": {
+                        "title": "速度の増分幅の設定",
+                        "subtitle": "動画再生の速度調整の増分幅を設定します"
                     },
                     "preferredVideoCodec": {
                         "title": "優先する動画のコーデック",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

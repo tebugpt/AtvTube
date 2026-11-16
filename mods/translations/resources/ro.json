@@ -70,9 +70,25 @@
                 "title": "Setări player video",
                 "subtitle": "Personalizează funcțiile player-ului video",
                 "options": {
+                    "patching": {
+                        "title": "Corectează interfața player-ului video",
+                        "options": {
+                            "enableVPUIPatching": "Activează corectarea interfeței player-ului video",
+                            "previousNextBtns": "Activează butoanele Anterior și Următor",
+                            "showSuperThxBtn": "Afișează butonul Super Thanks",
+                            "showSpeedCtrlBtn": "Afișează butonul de control al vitezei",
+                            "addMPBtn": "Afișează butonul pentru Mini Player",
+                            "swapMPWithPIP": "Schimbă butonul Mini Player cu butonul PiP",
+                            "showAIAskBtn": "Show Ask Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Calitatea video preferată",
                         "subtitle": "Alege calitatea video preferată sau următoarea cea mai bună care se aplică la începutul redării"
+                    },
+                    "speedSettings": {
+                        "title": "Treptele setărilor de viteză",
+                        "subtitle": "Setează treptele de viteză pentru ajustarea vitezei de redare"
                     },
                     "preferredVideoCodec": {
                         "title": "Codec video preferat",
@@ -206,6 +222,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

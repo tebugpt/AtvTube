@@ -68,9 +68,25 @@
                 "title": "视频播放器设置",
                 "subtitle": "自定义视频播放器功能",
                 "options": {
+                    "patching": {
+                        "title": "修补视频播放器界面",
+                        "options": {
+                            "enableVPUIPatching": "启用视频播放器界面修补",
+                            "previousNextBtns": "启用上一个/下一个按钮",
+                            "showSuperThxBtn": "显示超级感谢按钮",
+                            "showAIAskBtn": "显示提问按钮",
+                            "showSpeedCtrlBtn": "显示速度控制按钮",
+                            "addMPBtn": "显示迷你播放器按钮",
+                            "swapMPWithPIP": "将迷你播放器按钮与画中画按钮互换"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "首选视频画质",
                         "subtitle": "选择播放开始时应用的首选或次优视频画质"
+                    },
+                    "speedSettings": {
+                        "title": "速度调节步长",
+                        "subtitle": "设置视频播放速度调整的步长"
                     },
                     "preferredVideoCodec": {
                         "title": "首选视频编码",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "播放速度",
+            "button": "速度控制",
+            "fixStuttering": "修复卡顿 (1.0001x)"
+        },
+        "miniPlayer": "迷你播放器",
+        "pictureInPicture": "画中画",
+        "previous": "上一个",
+        "next": "下一个",
+        "withTizenTube": "使用 YouTube",
+        "share": {
+            "title": "分享",
+            "button": "分享",
+            "qrCodeScanMessage": "扫描下方二维码分享此视频。"
+        },
         "screenOff": "关闭屏幕"
     },
     "toasts": {

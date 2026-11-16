@@ -68,9 +68,25 @@
                 "title": "Ρυθμίσεις διεπαφής αναπαραγωγής βίντεο",
                 "subtitle": "Προσαρμόστε τις δυνατότητες του προγράμματος αναπαραγωγής βίντεο",
                 "options": {
+                    "patching": {
+                        "title": "Τροποποίηση διεπαφής αναπαραγωγής βίντεο",
+                        "options": {
+                            "enableVPUIPatching": "Ενεργοποίηση τροποποίησης διεπαφής αναπαραγωγής βίντεο",
+                            "previousNextBtns": "Ενεργοποίηση κουμπιών Προηγούμενο και Επόμενο",
+                            "showSuperThxBtn": "Εμφάνιση κουμπιού σούπερ ευχαριστιών",
+                            "showSpeedCtrlBtn": "Εμφάνιση κουμπιού ελέγχου ταχύτητας",
+                            "showAIAskBtn": "Show Ask Button",
+                            "addMPBtn": "Show Mini Player Button",
+                            "swapMPWithPIP": "Swap Mini Player Button with PiP Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Προτιμώμενη ποιότητα βίντεο",
                         "subtitle": "Επιλέξτε την προτιμώμενη ή την επόμενη καλύτερη ποιότητα βίντεο που θα εφαρμοστεί κατά την έναρξη της αναπαραγωγής"
+                    },
+                    "speedSettings": {
+                        "title": "Ρυθμίσεις ποσοτικών αυξήσεων στην ταχύτητα βίντεο",
+                        "subtitle": "Ρύθμιστε τις ποσοτικές αυξήσεις στην ταχύτητα αναπαραγωγής βίντεο"
                     },
                     "preferredVideoCodec": {
                         "title": "Προτιμώμενος αποκωδικοποιητής βίντεο",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

@@ -71,9 +71,25 @@
                 "title": "Paramètres du lecteur vidéo",
                 "subtitle": "Personnaliser les fonctionnalités du lecteur vidéo",
                 "options": {
+                    "patching": {
+                        "title": "Modifier l'interface du lecteur vidéo",
+                        "options": {
+                            "enableVPUIPatching": "Activer la modification de l'interface du lecteur vidéo",
+                            "previousNextBtns": "Activer les boutons Précédent et Suivant",
+                            "showSuperThxBtn": "Afficher le bouton Super Merci",
+                            "showAIAskBtn": "Afficher le bouton Demander",
+                            "showSpeedCtrlBtn": "Afficher le bouton des contrôles de vitesse",
+                            "addMPBtn": "Afficher le bouton du mini lecteur",
+                            "swapMPWithPIP": "Remplacer le bouton du mini lecteur par celui de l'incrustation d'image"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Qualité vidéo préférée",
                         "subtitle": "Choisissez la qualité vidéo préférée ou la meilleure qualité suivante appliquée au démarrage de la lecture"
+                    },
+                    "speedSettings": {
+                        "title": "Incréments des paramètres de vitesse",
+                        "subtitle": "Définissez les incréments de vitesse pour les ajustements de vitesse de lecture vidéo"
                     },
                     "preferredVideoCodec": {
                         "title": "Paramètres Codec",
@@ -184,7 +200,22 @@
         }
     },
     "player": {
-        "screenOff": "Éteindre l'écran"
+        "miniPlayer": "Mini lecteur",
+        "next": "Suivant",
+        "pictureInPicture": "Image dans l'image",
+        "playbackSpeed": {
+            "button": "Contrôles de vitesse",
+            "fixStuttering": "Corriger les saccades (1.0001x)",
+            "title": "Vitesse de lecture"
+        },
+        "previous": "Précédent",
+        "screenOff": "Éteindre l'écran",
+        "share": {
+            "button": "Partager",
+            "qrCodeScanMessage": "Scannez le code QR ci-dessous pour partager cette vidéo.",
+            "title": "Partager"
+        },
+        "withTizenTube": "avec YouTube"
     },
     "sponsorblock": {
         "segments": {

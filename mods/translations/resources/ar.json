@@ -68,9 +68,25 @@
                 "title": "إعدادات مشغل الفيديو",
                 "subtitle": "تخصيص ميزات مشغل الفيديو",
                 "options": {
+                    "patching": {
+                        "title": "Patch Video Player UI",
+                        "options": {
+                            "enableVPUIPatching": "تمكين تعديل واجهة مشغل الفيديو",
+                            "previousNextBtns": "تمكين أزرار السابق والتالي",
+                            "showSuperThxBtn": "عرض زر SuperThanks",
+                            "showSpeedCtrlBtn": "عرض زر التحكم بالسرعة",
+                            "addMPBtn": "عرض زر مشغل الفيديو المصغر",
+                            "swapMPWithPIP": "استبدال زر المشغل المصغر بزر صورة داخل صورة",
+                            "showAIAskBtn": "Show Ask Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "جودة الفيديو المفضلة",
                         "subtitle": "اختر الجودة المفضلة أو الأقرب عند بدء التشغيل"
+                    },
+                    "speedSettings": {
+                        "title": "إعدادات سرعة التشغيل",
+                        "subtitle": "تحديد درجات تغيير سرعة تشغيل الفيديو"
                     },
                     "preferredVideoCodec": {
                         "title": "ترميز الفيديو المفضل",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {

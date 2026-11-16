@@ -68,9 +68,25 @@
                 "title": "Video Oynatıcı Ayarları",
                 "subtitle": "Video oynatıcı özelliklerini özelleştirin",
                 "options": {
+                    "patching": {
+                        "title": "Video Oynatıcı Arayüzünü Yama",
+                        "options": {
+                            "enableVPUIPatching": "Video Oynatıcı Arayüzü Yamasını Etkinleştir",
+                            "previousNextBtns": "Önceki ve Sonraki Düğmelerini Etkinleştir",
+                            "showSuperThxBtn": "Süper Teşekkür Düğmesini Göster",
+                            "showAIAskBtn": "Soru Düğmesini Göster",
+                            "showSpeedCtrlBtn": "Hız Kontrol Düğmesini Göster",
+                            "addMPBtn": "Mini Oynatıcı Düğmesini Göster",
+                            "swapMPWithPIP": "Mini Oynatıcı Düğmesini PiP Düğmesi ile Değiştir"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Tercih Edilen Video Kalitesi",
                         "subtitle": "Oynatma başladığında uygulanacak tercih edilen veya bir sonraki en iyi video kalitesini seçin"
+                    },
+                    "speedSettings": {
+                        "title": "Hız Ayarı Artışları",
+                        "subtitle": "Video oynatma hızı ayarlamaları için artış miktarını belirleyin"
                     },
                     "preferredVideoCodec": {
                         "title": "Tercih Edilen Video Kodlayıcı",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Hız",
+            "button": "Hız Kontrolleri",
+            "fixStuttering": "Düzelt: Titremeyi düzelt (1.0001x)"
+        },
+        "miniPlayer": "Mini Oynatıcı",
+        "pictureInPicture": "Resim İçinde Resim",
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "withTizenTube": "YouTube ile",
+        "share": {
+            "title": "Paylaş",
+            "button": "Paylaş",
+            "qrCodeScanMessage": "Bu videoyu paylaşmak için aşağıdaki QR kodunu tarayın."
+        },
         "screenOff": "Ekranı Kapat"
     },
     "toasts": {

@@ -68,9 +68,25 @@
                 "title": "Configuraciones del Reproductor de Video",
                 "subtitle": "Personaliza las funciones del reproductor de video",
                 "options": {
+                    "patching": {
+                        "title": "Parchear la UI del Reproductor de Video",
+                        "options": {
+                            "enableVPUIPatching": "Habilitar Parcheo de la UI del Reproductor de Video",
+                            "previousNextBtns": "Habilitar Botones Anterior y Siguiente",
+                            "showSuperThxBtn": "Mostrar Botón de Super Gracias",
+                            "showSpeedCtrlBtn": "Mostrar Botón de Control de Velocidad",
+                            "showAIAskBtn": "Show Ask Button",
+                            "addMPBtn": "Show Mini Player Button",
+                            "swapMPWithPIP": "Swap Mini Player Button with PiP Button"
+                        }
+                    },
                     "preferredVideoQuality": {
                         "title": "Calidad de Video Preferida",
                         "subtitle": "Elige la calidad de video preferida o la siguiente mejor calidad aplicada al iniciar la reproducción"
+                    },
+                    "speedSettings": {
+                        "title": "Incrementos de Configuración de Velocidad",
+                        "subtitle": "Establece los incrementos de velocidad para los ajustes de velocidad de reproducción de video"
                     },
                     "preferredVideoCodec": {
                         "title": "Códec de Video Preferido",
@@ -204,6 +220,21 @@
         }
     },
     "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls",
+            "fixStuttering": "Fix stuttering (1.0001x)"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with YouTube",
+        "share": {
+            "title": "Share",
+            "button": "Share",
+            "qrCodeScanMessage": "Scan the QR code below to share this video."
+        },
         "screenOff": "Turn off screen"
     },
     "toasts": {
