@@ -42,7 +42,7 @@ const defaultConfig = {
   enablePatchingVideoPlayer: true,
   enableMPButton: true,
   enableSwapMPWithPIP: false,
-  enablePreviews: true,
+  enablePreviews: false,
   enableHideWatchedVideos: false,
   hideWatchedVideosThreshold: 80,
   hideWatchedVideosPages: [],
