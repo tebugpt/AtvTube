@@ -39,7 +39,7 @@ const defaultConfig = {
   enableSuperThanksButton: false,
   enableAIAskButton: false,
   enableSpeedControlsButton: true,
-  enablePatchingVideoPlayer: true,
+  enablePatchingVideoPlayer: false,
   enableMPButton: true,
   enableSwapMPWithPIP: false,
   enablePreviews: false,
