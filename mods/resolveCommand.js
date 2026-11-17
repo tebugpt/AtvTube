@@ -110,18 +110,6 @@ export function patchResolveCommand() {
 
                     cmd.openPopupAction.popup.overlaySectionRenderer.overlay.overlayTwoPanelRenderer.actionPanel.overlayPanelRenderer.content.overlayPanelItemListRenderer.items.splice(3, 0,
                         buttonItem(
-                            { title: t('player.share.button') },
-                            { icon: 'OPEN_IN_NEW' }, [
-                            {
-                                customAction: {
-                                    action: 'SHARE'
-                                }
-                            }
-                        ])
-                    );
-
-                    cmd.openPopupAction.popup.overlaySectionRenderer.overlay.overlayTwoPanelRenderer.actionPanel.overlayPanelRenderer.content.overlayPanelItemListRenderer.items.splice(3, 0,
-                        buttonItem(
                             { title: t('player.screenOff') },
                             { icon: 'EYE_OFF' }, [
                             {
