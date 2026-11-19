@@ -241,26 +241,24 @@ function customAction(action, parameters) {
         case 'GO_TO_CHANNEL':
             requestNextAndNavigateChannel(parameters);
             break;
-        case 'SHARE':
+        case 'SHARE': {
             const videoPlayer = document.querySelector('.html5-video-player');
-            const videoData = videoPlayer.getVideoData();
-            const videoId = videoData.video_id;
-            const shareUrl = `https://www.youtube.com/watch?v=${videoId}`;
+            const videoId = videoPlayer && videoPlayer.getVideoData && videoPlayer.getVideoData().video_id;
+            if (!videoId) {
+                showToast('TizenTube', 'No video to share');
+                break;
+            }
+            const shareUrl = `https://youtu.be/${videoId}`;
+            const qrImage = qrPngDataUrl(qrcode, shareUrl);
 
-            const qr = qrcode.qrcode(6, 'H');
-            qr.addData(shareUrl);
-            qr.make();
-
-            const qrDataImgTag = qr.createImgTag(8, 8);
-            const qrDataUrl = qrDataImgTag.match(/src="([^"]+)"/)[1];
-
+            const items = [overlayMessageRenderer(t('player.share.qrCodeScanMessage'))];
+            if (qrImage) items.push(QrCodeRenderer(qrImage));
+            items.push(overlayMessageRenderer(shareUrl));
             showModal({
                 title: t('player.share.title'),
-            }, overlayPanelItemListRenderer([
-                overlayMessageRenderer(t('player.share.qrCodeScanMessage')),
-                QrCodeRenderer(qrDataUrl)
-            ]), 'tt-share-modal');
+            }, overlayPanelItemListRenderer(items), 'tt-share-modal');
             break;
+        }
         case 'SHOW_GUIDE_BUTTONS':
             showGuideSettings('SHOW_GUIDE_BUTTONS', parameters);
             break;
@@ -294,5 +292,125 @@ function customAction(action, parameters) {
             }
             window.screenTurnedOffAt = Date.now();
             break;
+    }
+}
+
+/* ---- Share QR: PNG data URL builder (see comment below) ---- */
+// Share-QR image builder.
+//
+// The TV host (Cobalt) cannot use the GIF that qrcode-npm's createImgTag() produces, cannot load
+// SVG images, and has no canvas, but it does load PNG `data:` URLs. So the PNG is encoded here by
+// hand: 1-bit grayscale, zlib "stored" (uncompressed) blocks. No canvas, no CompressionStream.
+
+const CRC_TABLE = (function () {
+    const t = [];
+    for (let n = 0; n < 256; n++) {
+        let c = n;
+        for (let k = 0; k < 8; k++) c = (c & 1) ? (0xedb88320 ^ (c >>> 1)) : (c >>> 1);
+        t.push(c >>> 0);
+    }
+    return t;
+})();
+
+function crc32(bytes) {
+    let c = 0xffffffff;
+    for (let i = 0; i < bytes.length; i++) c = CRC_TABLE[(c ^ bytes[i]) & 0xff] ^ (c >>> 8);
+    return (c ^ 0xffffffff) >>> 0;
+}
+
+function adler32(bytes) {
+    let a = 1, b = 0;
+    for (let i = 0; i < bytes.length; i++) {
+        a = (a + bytes[i]) % 65521;
+        b = (b + a) % 65521;
+    }
+    return ((b << 16) | a) >>> 0;
+}
+
+function pushU32(out, v) {
+    out.push((v >>> 24) & 255, (v >>> 16) & 255, (v >>> 8) & 255, v & 255);
+}
+
+function pushChunk(out, type, data) {
+    const body = [type.charCodeAt(0), type.charCodeAt(1), type.charCodeAt(2), type.charCodeAt(3)].concat(data);
+    pushU32(out, data.length);
+    for (let i = 0; i < body.length; i++) out.push(body[i]);
+    pushU32(out, crc32(body));
+}
+
+function toBase64(bytes) {
+    let bin = '';
+    for (let i = 0; i < bytes.length; i += 4096) {
+        bin += String.fromCharCode.apply(null, bytes.slice(i, i + 4096));
+    }
+    return btoa(bin);
+}
+
+function pngFromQr(qr, cell, quiet) {
+    const count = qr.getModuleCount();
+    const dim = (count + quiet * 2) * cell;
+    const rowBytes = Math.ceil(dim / 8);
+
+    const raw = [];
+    for (let py = 0; py < dim; py++) {
+        raw.push(0); // filter: none
+        const my = Math.floor(py / cell) - quiet;
+        const row = [];
+        for (let i = 0; i < rowBytes; i++) row.push(0);
+        for (let px = 0; px < dim; px++) {
+            const mx = Math.floor(px / cell) - quiet;
+            const dark = my >= 0 && mx >= 0 && my < count && mx < count && qr.isDark(my, mx);
+            if (!dark) row[px >> 3] |= 0x80 >> (px & 7); // 1 = white
+        }
+        for (let i = 0; i < rowBytes; i++) raw.push(row[i]);
+    }
+
+    const z = [0x78, 0x01];
+    for (let pos = 0; pos < raw.length; pos += 65535) {
+        const len = Math.min(65535, raw.length - pos);
+        const last = pos + len >= raw.length ? 1 : 0;
+        z.push(last, len & 255, (len >>> 8) & 255, (~len) & 255, ((~len) >>> 8) & 255);
+        for (let i = 0; i < len; i++) z.push(raw[pos + i]);
+    }
+    pushU32(z, adler32(raw));
+
+    const ihdr = [];
+    pushU32(ihdr, dim);
+    pushU32(ihdr, dim);
+    ihdr.push(1, 0, 0, 0, 0); // 1-bit grayscale, deflate, no filter, no interlace
+
+    const out = [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a];
+    pushChunk(out, 'IHDR', ihdr);
+    pushChunk(out, 'IDAT', z);
+    pushChunk(out, 'IEND', []);
+    return 'data:image/png;base64,' + toBase64(out);
+}
+
+// Smallest QR version that fits (error correction M): fewer modules means bigger squares on screen.
+// Falls back to the original version 6 / level H if nothing else works.
+function makeQr(qrcode, text) {
+    for (let type = 2; type <= 10; type++) {
+        try {
+            const qr = qrcode.qrcode(type, 'M');
+            qr.addData(text);
+            qr.make();
+            return qr;
+        } catch (e) {
+            // "code length overflow": try the next version
+        }
+    }
+    const qr = qrcode.qrcode(6, 'H');
+    qr.addData(text);
+    qr.make();
+    return qr;
+}
+
+// -> PNG data URL, or null if anything goes wrong
+function qrPngDataUrl(qrcode, text) {
+    try {
+        return pngFromQr(makeQr(qrcode, text), 10, 4);
+    } catch (e) {
+        console.error('TizenTube: share QR generation failed:', e);
+        return null;
     }
 }
