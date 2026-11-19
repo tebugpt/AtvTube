@@ -253,7 +253,6 @@ function customAction(action, parameters) {
 
             const items = [overlayMessageRenderer(t('player.share.qrCodeScanMessage'))];
             if (qrImage) items.push(QrCodeRenderer(qrImage));
-            items.push(overlayMessageRenderer(shareUrl));
             showModal({
                 title: t('player.share.title'),
             }, overlayPanelItemListRenderer(items), 'tt-share-modal');
